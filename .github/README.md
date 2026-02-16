@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-auto-scaling-plans`](https://www.npmjs.com/package/@aws-sdk/client-auto-scaling-plans/v/3.919.0).
+[`@aws-sdk/client-auto-scaling-plans`](https://www.npmjs.com/package/@aws-sdk/client-auto-scaling-plans/v/3.920.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.919.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.920.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3oF44OB1VKiXxqshcyirn8PzYbKe7I6PoDMz8S/BUvpddSqPEGlQ4Af1caFOazEC
+sha384-S2sek00//mKprjRaZZg3/gPEHpK6vFe6Xmu1rTxU26xBbXfeeyWO8nLBp9D9W+nH
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-auto-scaling-plans": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.919.0/index.min.mjs"
+            "@aws-sdk/client-auto-scaling-plans": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.920.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.919.0/index.min.mjs": "sha384-3oF44OB1VKiXxqshcyirn8PzYbKe7I6PoDMz8S/BUvpddSqPEGlQ4Af1caFOazEC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.920.0/index.min.mjs": "sha384-S2sek00//mKprjRaZZg3/gPEHpK6vFe6Xmu1rTxU26xBbXfeeyWO8nLBp9D9W+nH"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-auto-scaling-plans": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.919.0/index.min.mjs"
+                        "@aws-sdk/client-auto-scaling-plans": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.920.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.919.0/index.min.mjs": "sha384-3oF44OB1VKiXxqshcyirn8PzYbKe7I6PoDMz8S/BUvpddSqPEGlQ4Af1caFOazEC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auto-scaling-plans@3.920.0/index.min.mjs": "sha384-S2sek00//mKprjRaZZg3/gPEHpK6vFe6Xmu1rTxU26xBbXfeeyWO8nLBp9D9W+nH"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.919.0`)
+* Always pin to a specific version (`@3.920.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-auto-scaling-plans/blob/refs/tags/3.919.0/LICENSE
+https://github.com/cloud-sdk-builds/client-auto-scaling-plans/blob/refs/tags/3.920.0/LICENSE
 ```
 
 ---
